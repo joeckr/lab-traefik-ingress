@@ -1,6 +1,11 @@
 apiVersion: v2
-name: lab-service
-description: Helm chart for experimenting with new services in a lab environment
+name: traefik
+description: Helm wrapper chart overriding official Traefik ingress controller
 type: application
-version: 0.2.1
-appVersion: "0.2.1"
+version: 1.0.0
+appVersion: "v3.7.14"
+
+dependencies:
+  - name: traefik
+    version: "42.0.0"
+    repository: "https://traefik.github.io/charts"
