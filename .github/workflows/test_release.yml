@@ -13,6 +13,8 @@ jobs:
     with:
       charts-dir: 'chart'
       dry-run: true
+      helm-repos: |
+        traefik https://traefik.github.io/charts
   release:
     permissions:
       contents: write
