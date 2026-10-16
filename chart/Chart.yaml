@@ -2,9 +2,8 @@ apiVersion: v2
 name: traefik
 description: Helm wrapper chart overriding official Traefik ingress controller
 type: application
-version: 1.0.0
-appVersion: "v3.7.14"
-
+version: 0.1.0
+appVersion: "0.1.0"
 dependencies:
   - name: traefik
     version: "42.0.0"
