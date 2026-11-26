@@ -1,7 +1,7 @@
 services:
   traefik:
     container_name: lab-traefik
-    image: traefik:v3.7.14
+    image: traefik:v3.7.19
     restart: unless-stopped
     command:
       - "--api.insecure=true"
